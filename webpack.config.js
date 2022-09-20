@@ -14,6 +14,7 @@ module.exports = (env) => {
     plugins: [
       new HtmlWebpackPlugin({
         title: 'Output Management',
+        filename: 'game.html'
       }),
     ],
     module: {
