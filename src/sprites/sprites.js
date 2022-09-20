@@ -1,5 +1,4 @@
 import sellpyBag from './sellpy_bag.png'
-import startCopy from './start_copy.png'
 import restart from './restart.png'
 import startButton from './start_button.png'
 import scissor1 from './scissor1.png'
@@ -12,7 +11,6 @@ import cloud2 from './cloud2.png'
 
 
 export const loadSprites = () => {
-  loadSprite('start', startCopy)
   loadSprite('bag', sellpyBag)
   loadSprite('restart', restart)
   loadSprite('startButton', startButton)

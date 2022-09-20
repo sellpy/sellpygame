@@ -237,7 +237,7 @@ scene('end', () => {
 
 
   add([
-    pos(width() / 2, 230),
+    pos(width() / 2, 150),
     text('Game over', {
       size: 45, // 48 pixels tall
       width: 700,
@@ -248,7 +248,7 @@ scene('end', () => {
   ])
 
   add([
-    pos(width() / 2, 320),
+    pos(width() / 2, 200),
     text('CO2 avoided:', {
       size: 25, // 48 pixels tall
       width: 700,
@@ -259,7 +259,7 @@ scene('end', () => {
   ])
 
   add([
-    pos(width() / 2, 400),
+    pos(width() / 2, 250),
     text(co2Count, {
       size: 40, // 48 pixels tall
       width: 700,
@@ -271,7 +271,7 @@ scene('end', () => {
 
   if (isHighScore) {
     add([
-      pos(width() / 2, 500),
+      pos(width() / 2, 300),
       text('New high score', {
         size: 40, // 48 pixels tall
         width: 700,
@@ -296,7 +296,7 @@ scene('end', () => {
   })
 
   const restartButton = add([
-    pos(width() / 2, height() - 200),
+    pos(width() / 2, 400),
     text('Click here to restart', {
       size: 25, // 48 pixels tall
       width: 700,
