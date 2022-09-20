@@ -1,0 +1,19 @@
+{
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 2020
+  },
+  "rules": {
+    "quotes": [
+      2,
+      "single",
+      {
+        "avoidEscape": true
+      }
+    ],
+    "indent": [
+      "error",
+      2
+    ]
+  }
+}
